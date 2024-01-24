@@ -16,29 +16,29 @@ main {
 
   display: flex;
   flex-direction: column;
+}
 
-  * {
-    text-align: center;
-  }
+.card * {
+  text-align: center;
+}
 
-  img {
-    width: 100%;
-    border-radius: 15px;
-    margin-bottom: 20px;
-  }
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
 
-  h1 {
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--dark-blue);
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
+.card h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark-blue);
+  line-height: 30px;
+  margin-bottom: 15px;
+}
 
-  p {
-    font-size: 15px;
-    font-weight: 400;
-    color: var(--grayish-blue);
-    line-height: 20px;
-  }
+.card p {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--grayish-blue);
+  line-height: 20px;
 }
