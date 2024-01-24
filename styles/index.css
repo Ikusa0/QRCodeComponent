@@ -1,0 +1,44 @@
+@import url(global-styles.css);
+
+main {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 300px;
+  background-color: var(--white);
+  padding: 25px;
+  border-radius: 25px;
+  filter: drop-shadow(5px 5px 20px var(--grayish-blue-transparent));
+
+  display: flex;
+  flex-direction: column;
+
+  * {
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dark-blue);
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--grayish-blue);
+    line-height: 20px;
+  }
+}
